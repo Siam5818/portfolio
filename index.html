@@ -3,7 +3,12 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Mohamed Anzize — Ingénieur Logiciel Full-Stack</title>
+<title>AMSD — Mohamed Anzize | Software & Digital Solutions</title>
+<meta name="description" content="AMSD — Mohamed Anzize, ingénieur logiciel full-stack basé à Dakar. Applications métier, APIs, automatisation, IoT et cloud. Software Engineer Dakar, Sénégal.">
+<meta property="og:title" content="AMSD — Software & Digital Solutions">
+<meta property="og:description" content="Je conçois et construis des systèmes logiciels qui transforment des problèmes métier en solutions fiables.">
+<meta property="og:type" content="website">
+<meta name="keywords" content="Software Engineer Dakar, Java Developer, Spring Boot Developer, Backend Developer, Full Stack Developer, Cloud, Software Solutions, Web Applications, API Development, IoT, Senegal, Comoros">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,450;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -16,18 +21,16 @@
 
 <header>
   <div class="wrap"><nav>
-    <div class="logo">AMSD<em>-GIK</em></div>
+    <div class="logo">AMSD<small>Mohamed Anzize</small></div>
     <div class="navlinks" id="navlinks">
-      <a href="#accueil" class="navlink active">Accueil</a>
+      <a href="#build" class="navlink active">Ce que je construis</a>
+      <a href="#etudes-de-cas" class="navlink">Études de cas</a>
+      <a href="#engineering" class="navlink">Engineering</a>
       <a href="#apropos" class="navlink">À propos</a>
-      <a href="#competences" class="navlink">Compétences</a>
-      <a href="#outils" class="navlink">Outils</a>
-      <a href="#services" class="navlink">Services</a>
-      <a href="#projets" class="navlink">Projets</a>
       <a href="#contact" class="navlink">Contact</a>
     </div>
     <div style="display:flex;gap:14px;align-items:center">
-      <a href="#contact" class="cv-btn">Me contacter</a>
+      <a href="#contact" class="cv-btn">Discuter d'un projet</a>
       <div class="burger" id="burger"><span></span><span></span><span></span></div>
     </div>
   </nav></div>
@@ -35,55 +38,61 @@
 
 <section class="hero" id="accueil">
   <div class="wrap">
-    <span class="tag"><span class="dot"></span>Disponible pour missions remote</span>
-    <div class="hero-name">Mohamed Anzize</div>
-    <h1>Je construis des logiciels<br>qui tiennent en <span class="accent">production.</span></h1>
-    <div class="role-line"><span id="typed"></span></div>
-    <p class="hero-desc">Étudiant en Master Génie Logiciel à l'ISI Dakar, je développe des plateformes complètes — backend, frontend, mobile, IA et infrastructure — pour des projets académiques, des startups et des exigences internationales. Basé à Dakar, ouvert au remote pour le Canada, la Suisse, l'Allemagne, le Royaume-Uni et la France.</p>
+    <span class="tag">AMSD — Software & Digital Solutions</span>
+    <h1>Je conçois et construis des systèmes logiciels qui transforment des problèmes métier en solutions fiables.</h1>
+    <p class="hero-desc">Ingénieur logiciel full-stack basé à Dakar, je développe des applications métier, des APIs, de l'automatisation et de l'infrastructure cloud — pour des projets académiques, des startups et des missions à venir à l'international.</p>
     <div class="btnrow">
-      <a href="#projets" class="btn btn-primary">Voir mes projets</a>
-      <a href="assets/CV_Mohamed_Anzize_International.pdf" download class="btn btn-ghost">Télécharger mon CV</a>
-    </div>
-    <div class="stats">
-      <div class="stat"><b class="counter" data-target="20">0</b><span>Projets bâtis</span></div>
-      <div class="stat"><b class="counter" data-target="11">0</b><span>Stacks maîtrisées</span></div>
-      <div class="stat"><b class="counter" data-target="6">0</b><span>Domaines (dev·cloud·réseau·QA·data·mobile)</span></div>
+      <a href="#etudes-de-cas" class="btn btn-primary">Voir les études de cas</a>
+      <a href="#contact" class="btn btn-ghost">Discuter d'un projet</a>
     </div>
   </div>
 </section>
 
-<section id="apropos">
+<section id="build">
   <div class="wrap">
-    <div class="about-grid">
-      <div class="reveal"><div class="avatar-wrap"><div class="avatar-inner" id="avatar"><img src="assets/amsd.jpg" alt="Mohamed Anzize"></div></div></div>
-      <div class="about-text reveal">
-        <span class="eyebrow">À propos</span>
-        <h2>Un ingénieur, plusieurs écosystèmes.</h2>
-        <p>Je m'appelle Mohamed Anzize, aussi connu sous AMSD-GIK. Je navigue naturellement entre Java/Spring Boot, .NET, Laravel, FastAPI, React, Angular et Expo/React Native — pas par dispersion, mais parce que chaque projet impose sa propre stack, et j'aime m'y adapter vite.</p>
-        <p>Au-delà du développement applicatif, je maîtrise aussi l'administration système Linux, le réseau (SSH, DNS, DHCP, Apache), le cloud AWS et les bases de données relationnelles/NoSQL — une polyvalence de bout en bout, du poste de travail jusqu'à la production.</p>
-        <div class="info-grid">
-          <div class="info-item"><small>Localisation</small>Dakar, Sénégal</div>
-          <div class="info-item"><small>Cible marché</small>Afrique de l'Ouest francophone</div>
-          <div class="info-item"><small>Ouvert au remote</small>Canada · Suisse · Allemagne · UK · France</div>
-          <div class="info-item"><small>Langues</small>Français · Anglais professionnel</div>
-        </div>
-        <div class="subblock">
-          <h4>Formation</h4>
-          <p>Master Génie Logiciel (Systèmes d'Information) — ISI Dakar, en cours. Modules : architecture logicielle, qualité logicielle (ISO/IEC 25010), APIs, tests (ISTQB).</p>
-          <div class="chip-row">
-            <span class="chip">ITIL 4 Foundation — en préparation</span>
-            <span class="chip">TOGAF — envisagé</span>
-            <span class="chip">Scrum Master / PRINCE2 — envisagé</span>
-          </div>
-        </div>
-      </div>
+    <div class="section-head reveal">
+      <span class="eyebrow">Ce que je construis</span>
+      <h2>Des systèmes, pas seulement du code</h2>
+      <p class="section-sub">Les technologies sont des outils. Voici les problèmes qu'elles me permettent de résoudre.</p>
     </div>
+    <div class="build-grid" id="build-grid"></div>
   </div>
 </section>
 
-<section id="competences">
+<section id="piliers">
   <div class="wrap">
-    <div class="section-head reveal"><span class="eyebrow">Compétences</span><h2>Ma boîte à outils technique</h2></div>
+    <div class="section-head reveal"><span class="eyebrow">Architecture</span><h2>Trois piliers</h2></div>
+    <div class="pillar-grid" id="pillar-grid"></div>
+  </div>
+</section>
+
+<section id="etudes-de-cas">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">Études de cas</span>
+      <h2>Projets significatifs</h2>
+      <p class="section-sub">Chaque projet est étiqueté selon son niveau réel de maturité — académique, prototype, preuve de concept ou produit potentiel.</p>
+    </div>
+    <div id="case-studies"></div>
+
+    <div class="section-head reveal" style="margin-top:56px"><span class="eyebrow">Autres projets</span><h2 style="font-size:1.3rem">Travaux complémentaires</h2></div>
+    <div class="filters reveal">
+      <button class="filter-btn active" data-f="all">Tous</button>
+      <button class="filter-btn" data-f="academic">Académique</button>
+      <button class="filter-btn" data-f="proto">Prototype</button>
+      <button class="filter-btn" data-f="poc">POC</button>
+    </div>
+    <div class="sec-grid" id="sec-grid"></div>
+  </div>
+</section>
+
+<section id="engineering">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">Engineering</span>
+      <h2>Les fondations techniques</h2>
+      <p class="section-sub">Les outils avec lesquels je construis — preuve technique derrière chaque solution, pas une liste à cocher.</p>
+    </div>
     <div class="cat-label reveal">Backend</div>
     <div class="skills-grid" id="skills-backend"></div>
     <div class="cat-label reveal">Frontend & Mobile</div>
@@ -99,49 +108,36 @@
   </div>
 </section>
 
-<section id="outils">
-  <div class="wrap">
-    <div class="section-head reveal"><span class="eyebrow">Outils & Méthodologie</span><h2>Comment je travaille</h2></div>
-    <div class="tool-grid" id="tool-grid"></div>
-  </div>
-</section>
-
-<section id="parcours">
-  <div class="wrap">
-    <div class="section-head reveal"><span class="eyebrow">Parcours</span><h2>Chronologie récente</h2></div>
-    <div class="timeline" id="timeline"></div>
-  </div>
-</section>
-
 <section id="services">
   <div class="wrap">
-    <div class="section-head reveal"><span class="eyebrow">Services</span><h2>Ce que je peux faire pour vous</h2></div>
+    <div class="section-head reveal"><span class="eyebrow">Services</span><h2>Comment je peux intervenir</h2></div>
     <div class="tool-grid" id="service-grid"></div>
   </div>
 </section>
 
-<section id="projets">
+<section id="apropos">
   <div class="wrap">
-    <div class="section-head reveal"><span class="eyebrow">Projets</span><h2>Ce que j'ai construit</h2></div>
-    <div class="filters reveal">
-      <button class="filter-btn active" data-f="all">Tous</button>
-      <button class="filter-btn" data-f="java">Java</button>
-      <button class="filter-btn" data-f="dotnet">.NET</button>
-      <button class="filter-btn" data-f="php">PHP</button>
-      <button class="filter-btn" data-f="ai">IA / Python</button>
-      <button class="filter-btn" data-f="mobile">Mobile</button>
-      <button class="filter-btn" data-f="other">Autres</button>
+    <div class="about-grid">
+      <div class="reveal"><div class="avatar-wrap"><div class="avatar-inner" id="avatar"><img src="assets/portfolio.png" alt="Mohamed Anzize"></div></div></div>
+      <div class="about-text reveal">
+        <span class="eyebrow">À propos</span>
+        <h2>Comprendre un problème avant d'écrire du code</h2>
+        <p>Je m'appelle Mohamed Anzize. Je ne cherche pas uniquement à écrire du code : je cherche à comprendre comment un problème réel devient un système logiciel exploitable — depuis l'architecture jusqu'au déploiement.</p>
+        <p>Je navigue entre Java/Spring Boot, .NET, Laravel, FastAPI, React, Angular et Expo/React Native — pas par dispersion, mais parce que chaque problème impose sa propre stack. Au-delà du développement applicatif, je maîtrise aussi l'administration système Linux, le réseau et le cloud — une polyvalence de bout en bout, du poste de travail jusqu'à la production.</p>
+        <p>AMSD est aujourd'hui une marque personnelle portée par un ingénieur logiciel en formation. Mon objectif est de la faire grandir progressivement, projet après projet, vers une pratique de solutions logicielles à part entière.</p>
+        <div class="info-grid">
+          <div class="info-item"><small>Localisation</small>Dakar, Sénégal</div>
+          <div class="info-item"><small>Ouvert au remote</small>Canada · Suisse · Allemagne · UK · France</div>
+          <div class="info-item"><small>Langues</small>Français · Anglais professionnel</div>
+          <div class="info-item"><small>Formation</small>Master Génie Logiciel — ISI Dakar</div>
+        </div>
+        <div class="chip-row">
+          <span class="chip">ITIL 4 Foundation — en préparation</span>
+          <span class="chip">TOGAF — envisagé</span>
+          <span class="chip">Scrum Master / PRINCE2 — envisagé</span>
+        </div>
+      </div>
     </div>
-    <div class="proj-grid" id="proj-grid"></div>
-    <div class="section-head reveal" style="margin-top:56px;margin-bottom:8px"><span class="eyebrow">GitHub</span><h2 style="font-size:1.3rem">Autres dépôts publics</h2></div>
-    <div class="repo-mini-grid" id="repo-mini-grid"></div>
-  </div>
-</section>
-
-<section id="temoignages">
-  <div class="wrap">
-    <div class="section-head reveal"><span class="eyebrow">Témoignages</span><h2>Ce qu'on dit de mon travail</h2></div>
-    <div class="testi-grid" id="testi-grid"></div>
   </div>
 </section>
 
@@ -149,8 +145,8 @@
   <div class="wrap">
     <div class="contact-box reveal">
       <span class="eyebrow">Contact</span>
-      <h2 style="margin-top:10px">Construisons quelque chose ensemble.</h2>
-      <p style="color:var(--tx-dim);max-width:480px;margin:14px auto 0">Ouvert aux opportunités remote, freelance ou stage à l'international.</p>
+      <h2 style="margin-top:10px">Parlons de votre projet</h2>
+      <p style="color:var(--tx-dim);max-width:480px;margin:14px auto 0">Ouvert aux missions freelance, aux opportunités remote et aux collaborations techniques.</p>
       <div class="contact-links">
         <a href="mailto:sihamoudineanzize@gmail.com" class="clink">sihamoudineanzize@gmail.com</a>
         <a href="https://github.com/Siam5818" target="_blank" rel="noopener" class="clink">GitHub</a>
@@ -165,31 +161,30 @@
   <div class="wrap">
     <div class="foot-grid">
       <div class="foot-brand">
-        <div class="logo">AMSD<em>-GIK</em></div>
-        <p>Mohamed Anzize — ingénieur logiciel full-stack basé à Dakar. Développement, cloud, réseau et qualité, du poste de travail jusqu'à la production.</p>
+        <div class="logo">AMSD</div>
+        <p>Mohamed Anzize — ingénieur logiciel full-stack basé à Dakar. Applications métier, APIs, automatisation, cloud. Une marque personnelle en construction.</p>
         <div class="foot-social">
           <a href="https://github.com/Siam5818" target="_blank" rel="noopener">GitHub</a>
           <a href="https://gitlab.com/anzize5818" target="_blank" rel="noopener">GitLab</a>
-          <a href="mailto:contact@amsd-gik.dev">Email</a>
+          <a href="mailto:sihamoudineanzize@gmail.com">Email</a>
         </div>
       </div>
       <div class="foot-col">
         <h5>Navigation</h5>
-        <a href="#apropos">À propos</a>
-        <a href="#competences">Compétences</a>
-        <a href="#projets">Projets</a>
-        <a href="#services">Services</a>
+        <a href="#build">Ce que je construis</a>
+        <a href="#etudes-de-cas">Études de cas</a>
+        <a href="#engineering">Engineering</a>
         <a href="#contact">Contact</a>
       </div>
       <div class="foot-col">
         <h5>Contact</h5>
         <p>Dakar, Sénégal</p>
-        <a href="mailto:contact@amsd-gik.dev">contact@amsd-gik.dev</a>
+        <a href="mailto:sihamoudineanzize@gmail.com">sihamoudineanzize@gmail.com</a>
         <p>Remote — Canada · UE · UK</p>
       </div>
     </div>
     <div class="foot-bottom">
-      <span>© 2026 Mohamed Anzize (AMSD-GIK). Tous droits réservés.</span>
+      <span>© 2026 AMSD — Mohamed Anzize. Tous droits réservés.</span>
       <a href="#accueil" class="to-top">Haut de page ↑</a>
     </div>
   </div>
